@@ -1,0 +1,16 @@
+/* Página de inicio */
+
+.container{
+    margin-top: 100px;
+}
+.container div div{
+    height: auto;
+}
+
+/* Cards */
+
+
+/* Footer */
+footer{
+    margin-bottom: 0;
+}
