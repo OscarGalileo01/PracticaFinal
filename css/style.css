@@ -1,0 +1,76 @@
+/* Página de inicio */
+
+.container{
+    margin-top: 100px;
+}
+.container div div{
+    height: auto;
+}
+
+/* Cards */
+
+:root {
+    --color-primary: #353741;
+    --color-secondary: #4c74f8;
+    --color-tertriary: #e4eaf6;
+
+    --color-navy: #294978;
+    --color-white: #ffffff;
+    --color-grey: #f7f7f7;
+}
+
+/* --- BASE STYLES --- */
+
+
+
+.project {
+    min-height: 70rem;
+    margin: 0 auto;
+    perspective: 150rem;
+    position: relative;
+    max-width: 300px;
+}
+
+.project__hover-reverse-card--front,
+.project__hover-reverse-card--back {
+
+            align-items: center;
+ 
+    border-radius: 5px;
+
+            backface-visibility: hidden;
+    color: var(--color-tertriary);
+
+    display: flex;
+
+            justify-content: center;
+
+    font-weight: 800;
+    left: 0;
+
+    position: absolute;
+    top: 0;
+
+    transition: all 0.8s ease-in-out;
+
+}
+
+.project__hover-reverse-card--back {
+    color: var(--color-primary);
+
+            transform: rotateY(180deg);
+}
+
+.project:hover .project__hover-reverse-card--front {
+            transform: rotateY(-180deg);
+}
+
+.project:hover .project__hover-reverse-card--back {
+            transform: rotateY(0);
+}
+
+
+/* Footer */
+footer{
+    margin-bottom: 0;
+}
