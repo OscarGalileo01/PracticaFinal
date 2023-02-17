@@ -1,3 +1,10 @@
 .margin-bottom-xl{
     margin-bottom: 100px;
 }
+
+.card-img{
+    background-image: url(/assets/images/man-g473fc2b4a_1280.png);
+    background-repeat:no-repeat;
+background-size:cover;
+background-position:center;
+}
