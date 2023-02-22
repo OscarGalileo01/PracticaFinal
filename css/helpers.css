@@ -1,10 +1,32 @@
 .margin-bottom-xl{
     margin-bottom: 100px;
 }
+.margin-top-xl{
+    margin-top: 130px;
+}
 
 .card-img{
     background-image: url(/assets/images/man-g473fc2b4a_1280.png);
     background-repeat:no-repeat;
 background-size:cover;
 background-position:center;
+}
+
+.img-customers{
+    width: 50%;
+}
+
+.direction-flex{
+    flex-direction: row;
+}
+@media screen and (max-width: 480px) {
+    .img-customers{
+        width: 25%;
+    }
+
+    .direction-flex{
+        flex-direction: column;
+    }
+
+
 }
