@@ -1,4 +1,11 @@
 /* Página de inicio */
+*{
+    font-family: 'Tilt Neon', cursive;
+}
+
+p{
+    color: #808080;
+}
 .container{
     margin-top: 100px;
 }
