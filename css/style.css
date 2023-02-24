@@ -2,9 +2,15 @@
 *{
     font-family: 'Tilt Neon', cursive;
 }
-
+body{
+    background: url('https://png.pngtree.com/background/20210710/original/pngtree-white-simple-artificial-intelligence-technology-promotion-banner-poster-picture-image_1012751.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 p{
-    color: #808080;
+    color: #535353;
 }
 .container{
     margin-top: 100px;
@@ -86,7 +92,7 @@ footer{
 /* Card */
 
 .background-img-card{
-    background-image: url("../assets/images/man-g473fc2b4a_1280.png");
+    background-image: url("https://img.freepik.com/free-vector/abstract-black-texture-background-hexagon_206725-413.jpg?w=996&t=st=1677266740~exp=1677267340~hmac=80685655cd9871772cb10be0bf9fab3c502b69a44f04a93733a5423f05aa0d71");
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center;

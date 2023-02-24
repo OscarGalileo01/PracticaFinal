@@ -4,9 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/images/97010565db5e4675a8c7968384bbed63.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./libs/css/bootstrap.css" />
     <link rel="stylesheet" href="css/helpers.css" />
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <title>Contact Page</title>
   </head>
@@ -16,7 +19,7 @@
       <!-- Logo y Nav-->
       <nav class="navbar fixed-top navbar-expand-sm bg-dark navbar-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html"><img src="./assets/images/purpledot.png" alt="logo_image"></a>
+          <a class="navbar-brand" href="./index.html"><img src="./assets/images/97010565db5e4675a8c7968384bbed63.png" height="50px" alt="logo_image"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -33,15 +36,11 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                            aria-expanded="false">Dropdown</a>
+                            aria-expanded="false">Cartas</a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="card.html">Carta 1</a></li>
                             <li><a class="dropdown-item" href="card.html">Carta 2</a></li>
                             <li><a class="dropdown-item" href="card.html">Carta 3</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Separated link</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -61,7 +60,7 @@
       <!-- Breadcrumbs -->
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2">
         <!-- Div Maps -->
-        <div class="col">
+        <div class="col mt-md-5 ">
           <div class="ratio ratio-1x1">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d190864.5709617592!2d-4.865810942269671!3d41.62853450018982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd47728c08c66e93%3A0xb3ff92d41ca26bef!2sValladolid!5e0!3m2!1ses!2ses!4v1676548871867!5m2!1ses!2ses"
@@ -118,70 +117,28 @@
       </div>
     </div>
 
-    <!-- FOOTER -->
-    <footer class="bg-dark text-center text-white">
-      <!-- Grid container -->
-      <div class="container p-4 pb-0">
-        <!-- Section: Social media -->
-        <section class="mb-4">
+<!-- FOOTER -->
+<footer class="bg-dark text-center text-white margin-top-xl">
+  <!-- Grid container -->
+  <div class="p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4 row-cols gap-3 ">
           <!-- Facebook -->
-          <a
-            class="btn btn-outline-light btn-floating m-1"
-            href="#!"
-            role="button"
-            ><i class="fab fa-facebook-f"></i
-          ></a>
+          <a class="icon-footer margin-right" href="#" role="button"><ion-icon name="logo-twitter"></ion-icon></a>
+          <a class="icon-footer margin-right" href="#" role="button"><ion-icon name="logo-facebook"></ion-icon></a>
+          <a class="icon-footer margin-right" href="#" role="button"><ion-icon name="logo-instagram"></ion-icon></a>
+          <a class="icon-footer " href="#" role="button"><ion-icon name="logo-linkedin"></ion-icon></a>
+      </section>
+      <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
 
-          <!-- Twitter -->
-          <a
-            class="btn btn-outline-light btn-floating m-1"
-            href="#!"
-            role="button"
-            ><i class="fab fa-twitter"></i
-          ></a>
-
-          <!-- Google -->
-          <a
-            class="btn btn-outline-light btn-floating m-1"
-            href="#!"
-            role="button"
-            ><i class="fab fa-google"></i
-          ></a>
-
-          <!-- Instagram -->
-          <a
-            class="btn btn-outline-light btn-floating m-1"
-            href="#!"
-            role="button"
-            ><i class="fab fa-instagram"></i
-          ></a>
-
-          <!-- Linkedin -->
-          <a
-            class="btn btn-outline-light btn-floating m-1"
-            href="#!"
-            role="button"
-            ><i class="fab fa-linkedin-in"></i
-          ></a>
-
-          <!-- Github -->
-          <a
-            class="btn btn-outline-light btn-floating m-1"
-            href="#!"
-            role="button"
-            ><i class="fab fa-github"></i
-          ></a>
-        </section>
-        <!-- Section: Social media -->
-      </div>
-      <!-- Grid container -->
-
-      <!-- Copyright -->
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-        © 2020 Copyright:
-      </div>
-      <!-- Copyright -->
-    </footer>
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+  </div>
+  <!-- Copyright -->
+</footer>
     <!-- Footer -->
     <!-- SCRIPTS -->
     <script src="./libs/js/bootstrap.js"></script>
